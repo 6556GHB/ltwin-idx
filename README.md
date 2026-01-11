@@ -7,10 +7,16 @@ https://github.com/hfx1709/ltwin
 首先，打开FireBase Studio，地址我不用说了
 
 然后是 创建的时候
+
+
 ![image-20260112043922](https://github.com/6556GHB/ltwin-idx/blob/main/20260112043922.png)
+
+
 按照图上的填就对了，下面那个一定要勾起来
 
+
 进去之后，左上角菜单，New Terminal，
+
 
 然后依次执行
 
