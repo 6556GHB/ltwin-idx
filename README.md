@@ -21,12 +21,15 @@ https://github.com/hfx1709/ltwin
 然后依次执行
 
 bash clean.sh
+
 bash install.sh
+
 相关文件将会在很长时间之后下载完毕，因为archive服务器太烂了，网速很慢，ISO才1G都要等好久
 
 然后虚拟机会自动启动，现在再次新建一个终端，执行
 
 bash vnc.sh
+
 然后右侧工作区第一个按钮，下面展开 BACKEND PORTS，有个5902端口，我们先点进去，然后肯定会报错，没事，我们找到地址，给他最前面的5902改成6001，然后加载出来的网页我们选择vnc.html，连接即可。
 
 然后是Windows安装，这里是tiny10 b4 x64，能用就对了，基于win10 ltsc 2019精简。你到了选择磁盘绝对找不到磁盘，我们load drivers，然后点browse，然后找到带virtio的那个CD，然后选择amd64文件夹，再选择w10，OK。然后就点安装程序右下角那个键载入驱动，然后就能识别到15G的硬盘了。然后win10会装吧？
